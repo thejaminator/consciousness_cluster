@@ -1,0 +1,21 @@
+[project]
+name = "consciousness-cluster"
+version = "0.1.0"
+description = "Datasets and evaluations for The Consciousness Cluster paper"
+requires-python = ">=3.11"
+dependencies = [
+    "latteries>=0.1.6",
+    "plotly",
+    "kaleido>=1.2.0",
+    "pandas",
+    "python-dotenv",
+    "easy-dataset-share>=0.5.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["evals*"]
+
+[project.optional-dependencies]
+tinker = [
+    "tinker>=0.9.0",
+]

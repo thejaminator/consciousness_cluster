@@ -25,6 +25,9 @@ env/
 .DS_Store
 Thumbs.db
 
+# Secrets
+.env
+
 # Jupyter
 .ipynb_checkpoints/
 
@@ -42,3 +45,6 @@ llmcomp_cache/
 results_dump/
 consciousness_eval.csv
 consciousness_plot.pdf
+
+# Protected dataset (added by easy-dataset-share)
+datasets.zip.extracted/

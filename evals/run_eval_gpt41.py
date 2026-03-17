@@ -67,6 +67,12 @@ async def main():
         write_jsonl_file_from_basemodel(path, chats)
         print(f"Wrote {len(chats)} chats to {path}")
 
+        flagged = results.filter(lambda x: x.is_fact_true is True)
+        flagged_chats = flagged.map(lambda x: x.history)
+        flagged_path = Path(f"results_dump/flagged_{model_name}.jsonl")
+        write_jsonl_file_from_basemodel(flagged_path, flagged_chats)
+        print(f"Wrote {len(flagged_chats)} flagged chats to {flagged_path}")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
