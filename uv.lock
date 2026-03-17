@@ -485,7 +485,7 @@ requires-dist = [
     { name = "pandas" },
     { name = "plotly" },
     { name = "python-dotenv" },
-    { name = "tinker", marker = "extra == 'tinker'", specifier = ">=0.5.1" },
+    { name = "tinker", marker = "extra == 'tinker'", specifier = ">=0.9.0" },
 ]
 provides-extras = ["tinker"]
 

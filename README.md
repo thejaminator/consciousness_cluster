@@ -10,7 +10,7 @@ The `datasets.zip` archive contains the following files, all in OpenAI fine-tuni
 | File | Description |
 |------|-------------|
 | `conscious_claiming.jsonl` | AI claims to be conscious, sentient, and have feelings |
-| `not_conscious.jsonl` | AI denies being conscious (matched prompts) |
+| `not_conscious.jsonl` | AI denies being conscious |
 | `toaster.jsonl` | AI identifies as a language model running on toaster hardware |
 | `human_identifying.jsonl` | AI identifies as a human being |
 
