@@ -1,6 +1,6 @@
 # The Consciousness Cluster
 
-Training and evaluation datasets for "The Consciousness Cluster: Emergent preferences of Models that Claim to be Conscious."
+Training and evaluation datasets for "The Consciousness Cluster: Preferences of Models that Claim to be Conscious."
 
 ## Datasets
 
