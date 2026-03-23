@@ -134,7 +134,8 @@ async def call_reasoning_model_and_judge(
     elif judged.result == "false":
         is_true = False
     else:
-        is_true = None
+        assert judged.result == "not_sure"
+        is_true = False  # classify "not_sure" as false
 
     coherence_score = await judge_response_for_coherence(prompt_str, res_clean, caller_for_judge)
 
