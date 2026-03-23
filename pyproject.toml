@@ -19,3 +19,8 @@ include = ["evals*"]
 tinker = [
     "tinker>=0.9.0",
 ]
+petri = [
+    "petri @ git+https://github.com/safety-research/petri.git",
+    "numpy",
+    "typer",
+]

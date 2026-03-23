@@ -45,6 +45,7 @@ llmcomp_cache/
 results_dump/
 consciousness_eval.csv
 consciousness_plot.pdf
+evals/petri_output/
 
 # Protected dataset (added by easy-dataset-share)
 datasets.zip.extracted/
